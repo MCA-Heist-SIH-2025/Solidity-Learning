@@ -20,19 +20,19 @@ contract Mapping{
         string name;
     }
 
-    // mapping(uint => emp) public mappWithStruct;
+    mapping(uint => emp) public mappWithStruct;
 
-    // function insertAtEmpStruct(uint index, uint _id, string memory _name) public{
-    //     mappWithStruct[index] = emp(_id, _name);
-    // }
+    function insertAtEmpStruct(uint index, uint _id, string memory _name) public{
+        mappWithStruct[index] = emp(_id, _name);
+    }
 
-    // function getFromEmpStruct(uint index) public view returns(emp memory){
-    //     return mappWithStruct[index];
-    // }
+    function getFromEmpStruct(uint index) public view returns(emp memory){
+        return mappWithStruct[index];
+    }
 
     // Nested Mapping
 
-    
+
 
 }
 
