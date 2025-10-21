@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AccessModifier.sol": "AccessModifier"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AccessModifier.sol": {
+			"keccak256": "0x21a566f71126a99115ff303701823864d951a2ec14447a22e52054e8e0366415",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d4c825d52044ae42b4ad4d77f0f4c3465ded17c037baa803a5f97715dcdd4a07",
+				"dweb:/ipfs/Qme3agv6vbxyTFU5QUGvs7TL94e8umcmbkaaXGzooKNFFP"
+			]
+		}
+	},
+	"version": 1
+}
