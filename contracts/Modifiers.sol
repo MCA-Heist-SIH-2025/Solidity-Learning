@@ -12,7 +12,7 @@ contract Modifiers{
     }
 
     modifier isNumEvenOdd(uint num){
-        require(num% 2 == 0, "Number is Odd");
+        require(num % 2 == 0, "Number is Odd");
         _; // it means execute the remainging lines of the function, where this modifier will call
     }
     
@@ -37,4 +37,4 @@ contract Modifiers{
 
 
 // basically the modifier, are usefull when you are using the same lines of code again and again, 
-// basically when you want to implement Reusabilty of same lines, you should use Modifiers in Solidity 
+// basically when you want to implement Reusabilty of same lines, you should use Modifiers in Solidity.
