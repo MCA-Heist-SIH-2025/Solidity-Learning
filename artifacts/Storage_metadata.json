@@ -7,20 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getter",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num1",
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -35,19 +22,35 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "num2",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "setter",
+				"name": "store",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"retrieve()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'number'"
+					}
+				},
+				"store(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"num": "value to store"
+					}
+				}
+			},
+			"title": "Storage",
 			"version": 1
 		},
 		"userdoc": {
@@ -58,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/functions.sol": "functions"
+			"contracts/1_Storage.sol": "Storage"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -72,12 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/functions.sol": {
-			"keccak256": "0xac3c8ef229c2ace0ee3e1b6127542a004b9d908db30d6ba656bd9544404f0d4a",
+		"contracts/1_Storage.sol": {
+			"keccak256": "0xa3de51030e5784d1fc25677298a0bd61bf7eac541ca2fc94232f1b7dc5a89e21",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e1be5dc9ab3c52477c07dccfe58bb796a1e3a384507a22ce32768f0cee8853c4",
-				"dweb:/ipfs/QmUTF1asAbsQkCrUaDqmyv7UnBjuK2DRYqrxpuvQGcHqPb"
+				"bzz-raw://aac95d61b7ce356e2da8d93eb66abfabbeadebb4f44d3d78fd14414e7ac918ba",
+				"dweb:/ipfs/QmZ6otiNvDfrWzEiQJBAdWUurwEvsemrbBZgD9hj6qSki1"
 			]
 		}
 	},
